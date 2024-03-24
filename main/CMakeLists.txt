@@ -1,2 +1,2 @@
-idf_component_register(SRCS "main.c" "ssh.c"
+idf_component_register(SRCS "main.c"
                     INCLUDE_DIRS ".")

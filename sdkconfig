@@ -470,11 +470,6 @@ CONFIG_PARTITION_TABLE_MD5=y
 #
 # Application Configuration
 #
-CONFIG_SSH_USER="ssh-user"
-CONFIG_SSH_PASSWORD="ssh-pass"
-CONFIG_SSH_HOST="ssh-host.local"
-CONFIG_SSH_PORT=22
-# end of Application Configuration
 
 #
 # Compiler options
