@@ -470,9 +470,6 @@ CONFIG_PARTITION_TABLE_MD5=y
 #
 # Application Configuration
 #
-CONFIG_ESP_WIFI_SSID="myssid"
-CONFIG_ESP_WIFI_PASSWORD="mypassword"
-CONFIG_ESP_MAXIMUM_RETRY=5
 CONFIG_SSH_USER="ssh-user"
 CONFIG_SSH_PASSWORD="ssh-pass"
 CONFIG_SSH_HOST="ssh-host.local"
