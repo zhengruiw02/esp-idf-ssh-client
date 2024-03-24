@@ -1,5 +1,7 @@
+set(component_def "-DHAVE_CONFIG_H")
+
 set(component_include 
-	include 
+	include
 	)
 
 set(component_srcs
@@ -9,6 +11,7 @@ set(component_srcs
 	src/channel.c
 	src/comp.c
 	src/crypt.c
+	src/crypto.c
 	src/global.c
 	src/hostkey.c
 	src/keepalive.c
@@ -35,5 +38,5 @@ set(component_srcs
 idf_component_register(SRCS "${component_srcs}"
                        INCLUDE_DIRS "${component_include}"
                        REQUIRES mbedtls)
-
+target_compile_definitions(${COMPONENT_TARGET} PRIVATE ${component_def})
 target_compile_options(${COMPONENT_TARGET} PRIVATE -Wno-maybe-uninitialized)
