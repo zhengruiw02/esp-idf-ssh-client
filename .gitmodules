@@ -1,6 +1,3 @@
-[submodule "components/libssh2"]
-	path = components/libssh2
-	url = https://github.com/libssh2/libssh2
 [submodule "components/console_ssh"]
 	path = components/console_ssh
 	url = git@github.com:zhengruiw02/esp_console_ssh.git
